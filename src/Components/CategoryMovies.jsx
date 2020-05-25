@@ -18,7 +18,7 @@ import Pagination from './Pagination';
 
         setCategory(res.data)
         setLoading(false)
-        }
+    }
 
     useEffect(()=>{
         
