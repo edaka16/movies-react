@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+.row{
+  margin: 0;
+}
+.col-md-12{
+  /* min-width: 100vw; */
+  background-color:rgb(26, 32, 44);
+  border-bottom: 1px solid grey;
+}
+.mr-sm-2{
+  border-radius: 40px;
+  border-color: transparent;
+  background-color: rgb(49,55,66);
+}
+.home{
+  /* min-width: 100vw; */
+  min-height: 100vh;
+  background-color:rgb(26, 32, 44);
+}
+
+div .container .movie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.items{
+  color: white;
+  width: 250px;
+  height: 350px;
+}
+.movie-title{
+  max-width: 200px;
+  color: wheat;
+  margin: 0;
+  padding: 0;
+}
+
+.category{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dropdown-menu a {
+  max-width: 150px;
+  color: black;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+.dropdown .dropdown-menu {
+  margin: 0;
+  min-width: 320px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  opacity: 0;
+  background-color: rgb(218, 221, 230);
+}
+.dropdown .dropdown-menu a:hover{
+  background-color:rgb(161, 164, 175);
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+.dropdown:hover .dropdown-menu{
+  opacity: 1;
+  transition: all 0.3s ease;  
+  transform: translateY(0);
+}
+
+.te-fundit-me-te-shikuarit{
+  display: inline;
+  color: orange;
+}
+.te-fundit-me-te-shikuarit a{
+  float: right;
+}
+.filma{
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.justify-content-center {
+  margin-bottom: 0;
+}
+.kategorite-e-filmave p{
+  font-size: 12px;
+  margin-right: 10px;
+  display: inline;
+  color: white;
+}
+.kategorite-e-filmave{
+  padding-bottom: 15px;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  font-size: 50px;
+  color: white;
+}
+.loading-category{
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  font-size: 50px;
+  color: black;
+}
+.loading-movie{
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  font-size: 50px;
+}
+
+.video-js {
+  width: 100%;
+  height: 500px;
+}
+
+.data-of-movie{
+  color: white;
+  padding-top: 40px;
+}
+
+.description{
+  background-color: rgb(32,38,50);
+  border-top: 2px solid rgb(153,238,177); 
+  margin:0 15px;
+}
+
+.right-side p{ 
+  float: right;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+.right-side .viti {
+  margin-top: 20px;
+}
+
+.titulli-filmit{
+  color: wheat;
+  font-weight: normal;
+}
+.bold{
+  font-weight:bold ;
+}
